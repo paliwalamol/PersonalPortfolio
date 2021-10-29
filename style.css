@@ -240,12 +240,12 @@ color:var(--col1)
     
     margin-bottom: 2vw;
 }
-.card .button a{
+/* .card .button a{ */
     /* justify-content: center; */
     /* margin: auto; */
     /* position: absolute; */
     /* bottom: 2vw; */
-}
+/* } */
 .aboutme{
     display: flex;
     margin: 15vh;
@@ -254,7 +254,7 @@ color:var(--col1)
     /* background-color: var(--col1); */
 }
 .aboutme .imgdiv{
-    position: relative;
+    /* position: relative; */
     border-radius: 100%;
     border:2vw ridge var(--col1);
     width:20vw;
@@ -263,9 +263,8 @@ color:var(--col1)
    
 }
 .aboutme .imgdiv img{
-    position:absolute;
-    height:70vh;
-    left:-8vw;
+    width:20vw;
+    height:20vw;
 }
 .aboutme .imgdiv img:hover{
     transform:scale(1.1);
@@ -308,8 +307,8 @@ color:var(--col1)
     /* padding: 2vw; */
 }
 .clients .card .imgdiv img{
-    max-width:15vw;
-    max-height:15vw;
+    max-width:10vw;
+    max-height:10vw;
     
 
 }
@@ -407,23 +406,30 @@ color:var(--col1)
         margin-bottom: 20vh;
         text-align: center;
     }
-    .navul{
+    /* .navul{ */
         /* display: flex; */
         /* flex-direction: column; */
+    /* } */
+    .intro{
+        height:80vh;
+        font-size:2rem;
     }
-
     .intro .left{
         box-sizing: border-box;
         padding-top:10vh;
-        max-height:100vh;
+        max-height:80vh;
     }
     .intro .right{
-       
+        height:80vh;
         /* background-color: antiquewhite; */
     }
     .intro .right img{
         height: inherit;
         /* max-height:100vh; */
+    }
+    .left .resume a{
+        width:30vw;
+        font-size:2rem;
     }
     .projects .cards{
         display: flex;
@@ -437,18 +443,19 @@ color:var(--col1)
         max-width:100vw;
         width:500px;
         margin:10vw auto;
-        height:50vh;
-        font-size:larger;
+        height:50vw;
+        /* font-size:larger; */
+        font-size:1.2rem;
     }
     .projects .cards .card .imgdiv{
-        width:20vw;
-        height:20vw;
+        width:15vw;
+        height:15vw;
         left:170px;
         top:-12vw;
     }
     .projects .cards .card .imgdiv img{
-        width:20vw;
-        height:20vw;
+        width:15vw;
+        height:15vw;
     }
     .aboutme{
        
@@ -468,25 +475,32 @@ color:var(--col1)
         font-size: 25px;
         width:70vw;
     }
-    .clients{
-        /* display: flex; */
-        /* justify-content: space-evenly; */
-        /* max-width: 100vw; */
-        background-color: var(--col1);
-        max-height:80vh;
-        flex-wrap: nowrap;
-        /* padding: 2vw; */
-        overflow:scroll;
-        
-    }
-    .clients .card{
-        max-width:200px;
-        width:200px;
-        max-height:80vh;
-        background-color: var(--col2);
-        color: var(--col3);
-        padding:2vw 0;
-        
-    }
     
+     
+}
+@media screen and (max-width:800px) 
+{
+.intro{
+    height:50vh;
+    font-size:3rem;
+    max-height:50vh;
+}
+.intro .left{
+    box-sizing: border-box;
+    padding-top:10vh;
+    max-height:50vh;
+}
+.intro .right{
+    height:50vh;
+    /* background-color: antiquewhite; */
+}
+.intro .right img{
+    height: inherit;
+    /* max-height:100vh; */
+}
+.left .resume a{
+    width:30vw;
+    font-size:2rem;
+}
+
 }
