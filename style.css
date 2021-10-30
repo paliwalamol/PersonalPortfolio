@@ -407,6 +407,10 @@ color:var(--col1)
         margin-bottom: 20vh;
         text-align: center;
     }
+    #logo img:hover{
+        transform: scale(1);
+        /* overflow: hidden; */
+    }
     /* .navul{ */
         /* display: flex; */
         /* flex-direction: column; */
