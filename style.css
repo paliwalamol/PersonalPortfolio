@@ -1,12 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    /* max-width:1600px; */
+    
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
     max-width: 2800px;
-    /* box-sizing: border-box; */
 }
 :root{
     --col1:rgb(108, 220, 248);      /* light blue*/
@@ -52,7 +51,7 @@
     justify-content: center;
     padding: 10px;
     margin-left:20vw;
-    /* padding-top: 50px; */
+    
 }
 .navbar .left ul li{
     margin:0px 20px;
@@ -72,9 +71,7 @@ a{
 }
 .navbar .right a{
     box-sizing: border-box;
-    /* margin:25px 0px; */
     margin-right:10vw;
-    
     border:5px solid (--col1);
     background-color:var(--col1);
     padding: 15px;
@@ -99,14 +96,12 @@ a{
     max-height:85vh;
     width:100%;
     
-    /* overflow: hidden; */
 }
 .intro .right{
     background-color: black;
     border:none;
     height:85vh;
     max-height:85vh;
-    /* padding-right:30px; */
     width:50vw;
     margin-left: -20vw;
 }
@@ -134,14 +129,11 @@ a{
 }
 .intro .left .middlecontent{
 padding:5vh;
-/* margin: auto; */
 text-align: center;
 color:var(--col1)
 }
 .intro .left .maincontent{
-    /* align-items: center; */
     justify-content: center;
-    /* margin-top:-2000px; */
     background-color: var(--col4);
     display: flex;
     padding: 2vw;
@@ -177,9 +169,7 @@ color:var(--col1)
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    
-    /* box-shadow: 10px 10px 8px 10px #888888; */   
+    justify-content: space-evenly; 
     }
 .projects h1{
     background-color: var(--col4);
@@ -190,8 +180,6 @@ color:var(--col1)
     height: 40vh;
     max-height:40vh;
     width:25vw;
-    /* box-sizing: border-box; */
-    /* border: 1px solid var(--col4); */
     background-color:var(--col1);
     position: relative;
     box-shadow: 10px 10px 8px #888888;
@@ -206,7 +194,6 @@ color:var(--col1)
     top:-12vh;
     left:8vw;
     box-shadow: 10px 10px 8px #888888;
-    /* border-radius: 1em; */
     overflow: hidden;
 }
 .projects .cards .card .imgdiv img{
@@ -241,21 +228,12 @@ color:var(--col1)
     
     margin-bottom: 2vw;
 }
-/* .card .button a{ */
-    /* justify-content: center; */
-    /* margin: auto; */
-    /* position: absolute; */
-    /* bottom: 2vw; */
-/* } */
 .aboutme{
     display: flex;
     margin: 15vh;
     max-height: 30vw;
-    /* justify-content: space-between; */
-    /* background-color: var(--col1); */
 }
 .aboutme .imgdiv{
-    /* position: relative; */
     border-radius: 100%;
     border:2vw ridge var(--col1);
     width:20vw;
@@ -305,7 +283,6 @@ color:var(--col1)
     height:10vw;
     border-radius: 100%;
     overflow: hidden;
-    /* padding: 2vw; */
 }
 .clients .card .imgdiv img{
     max-width:10vw;
@@ -324,8 +301,6 @@ color:var(--col1)
     color: var(--col2);
     font-weight: 600;
     margin: 0;
-    /* margin:auto; */
-    /* border:2px solid red; */
     padding: 1.5vw;
     text-align: center;
     
@@ -345,19 +320,10 @@ color:var(--col1)
     justify-content: center;
 }
 .footer .form{
-    /* margin:5vh; */
-    /* display: inline-block; */
-    /* margin-top: 10vh; */
-    /* padding: 0 30vw; */
-    /* justify-content: center; */
-   
-    /* align-self: center; */
     color:var(--col1);
 
 }
 .footer .form form{
-    /* justify-content: center;
-    justify-self: center; */
     align-self: center;
     align-items: center;
     margin: 5vh;
@@ -409,12 +375,7 @@ color:var(--col1)
     }
     #logo img:hover{
         transform: scale(1);
-        /* overflow: hidden; */
     }
-    /* .navul{ */
-        /* display: flex; */
-        /* flex-direction: column; */
-    /* } */
     .intro{
         height:80vh;
         font-size:2rem;
@@ -426,11 +387,9 @@ color:var(--col1)
     }
     .intro .right{
         height:80vh;
-        /* background-color: antiquewhite; */
     }
     .intro .right img{
         height: inherit;
-        /* max-height:100vh; */
     }
     .left .resume a{
         width:30vw;
@@ -441,15 +400,12 @@ color:var(--col1)
         flex-direction: column;
         max-width:100vw;
         margin-top: 10vh;
-        /* justify-content: center; */
-        /* max-height:100%; */
     }
     .projects .cards .card{
         max-width:100vw;
         width:500px;
         margin:10vw auto;
         height:50vw;
-        /* font-size:larger; */
         font-size:1.2rem;
     }
     .projects .cards .card .imgdiv{
@@ -468,8 +424,6 @@ color:var(--col1)
         align-items: center;
         margin: 15vw;
         max-height: 50vh;
-        /* justify-content: space-between; */
-        /* background-color: var(--col1); */
     }
     
     
@@ -497,11 +451,9 @@ color:var(--col1)
 }
 .intro .right{
     height:50vh;
-    /* background-color: antiquewhite; */
 }
 .intro .right img{
     height: inherit;
-    /* max-height:100vh; */
 }
 .left .resume a{
     width:30vw;
@@ -515,15 +467,12 @@ color:var(--col1)
         flex-direction: column;
         max-width:100vw;
         margin-top: 10vh;
-        /* justify-content: center; */
-        /* max-height:100%; */
     }
     .projects .cards .card{
         max-width:100vw;
         width:500px;
         margin:10vw auto;
         height:70vw;
-        /* font-size:larger; */
         font-size:1.2rem;
     }
 }
